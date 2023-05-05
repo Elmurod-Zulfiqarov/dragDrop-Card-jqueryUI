@@ -1,0 +1,72 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #777;
+}
+
+nav {
+	background-color: lightblue;
+}
+
+nav h2{
+	color: rgb(243, 24, 207);
+}
+
+.drag-item {
+	text-align: center;
+}
+
+.drag-item img{
+	height: 150px;
+	width: 150px;
+}
+
+main {
+	background-color: #666;
+}
+
+#dragCards {
+	height: 100%;
+	padding-bottom: 40px;
+}
+.drag-card{
+	border: 5px solid whitesmoke;
+	border-radius: 10px;
+	background-color: #999;
+	margin: 10px;
+	padding-bottom: 30px;
+	height: 300px;
+	width: 300px;
+	position: relative;
+}
+
+.drag-card .item {
+	height: 100%;
+	width: 100%;
+	border-radius: 5px;
+	background-size: cover;
+	background-position: center;
+}
+
+.drag-card.hovered {
+	border: 3px dashed rgb(196, 252, 196);
+}
+
+.close {
+	position: absolute;
+	width: 50px;
+	height: 35px;
+	background: rgb(255, 78, 78);
+	color: white;
+	bottom: 0px;
+	left: 0px;
+	border-radius: 5px;
+}
+
+.display-none {
+	display: none;
+}
+
+#addNewCard {
+	background-color: rgb(255, 243, 225);
+}
