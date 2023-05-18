@@ -8,7 +8,7 @@ function init() {
 	});
 
 	$('#addNewCard').click(function () {
-		$('#dragCards').prepend(`
+		$('#dragCards').append(`
 			<div class="drag-card">
 				<button class="close fs-5 fw-bold">x</button>
 			</div>
